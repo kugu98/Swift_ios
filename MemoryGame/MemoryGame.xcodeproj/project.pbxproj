@@ -13,6 +13,7 @@
 		51667967287EAEFC000DBAEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51667966287EAEFC000DBAEB /* Preview Assets.xcassets */; };
 		5166796E287EAFFF000DBAEB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166796D287EAFFF000DBAEB /* CardView.swift */; };
 		51667970287EB58F000DBAEB /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166796F287EB58E000DBAEB /* GridStack.swift */; };
+		51AE5AD9287FB15D0059E329 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE5AD8287FB15D0059E329 /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		51667966287EAEFC000DBAEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5166796D287EAFFF000DBAEB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5166796F287EB58E000DBAEB /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		51AE5AD8287FB15D0059E329 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				51667965287EAEFC000DBAEB /* Preview Content */,
 				5166796D287EAFFF000DBAEB /* CardView.swift */,
 				5166796F287EB58E000DBAEB /* GridStack.swift */,
+				51AE5AD8287FB15D0059E329 /* GameModel.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE5AD9287FB15D0059E329 /* GameModel.swift in Sources */,
 				51667962287EAEFB000DBAEB /* GameView.swift in Sources */,
 				5166796E287EAFFF000DBAEB /* CardView.swift in Sources */,
 				51667970287EB58F000DBAEB /* GridStack.swift in Sources */,
