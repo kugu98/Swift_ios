@@ -6,16 +6,18 @@
 //
 
 
+
 import SwiftUI
 
 struct GameView: View {
-    var game = GameModel()
+    var prefix: String
+    @ObservedObject var game = GameModel()
     var body: some View {
         GridStack(rows: 6, columns: 3) { row, column in
-            CardView(prefix: "f", card: game.card(row: row, col: column))
+            CardView(prefix: prefix, card: game.card(row: row, col: column))
                 .gesture(
                     TapGesture().onEnded {
-                        
+                        game.toggle(row: row, col: column)
                     }
                 )
         }
@@ -24,6 +26,6 @@ struct GameView: View {
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView()
+        GameView(prefix: "f")
     }
 }
